@@ -16,19 +16,8 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
-		"carriage return",
-		"contained-auto-width",
-		"fix",
-		"fixed",
 		"front-end",
-		"it.rocks",
-		"line feed",
-		"line break",
-		"pre",
-		"raw",
-		"style",
-		"text",
-		"white-space"
+		"it.rocks"
 	],
 	"license": "ISC",
 	"module": "./contained-auto-width.js",
@@ -42,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./contained-auto-width.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
