@@ -1,5 +1,5 @@
 
-export default function containedAutoWidth(container: HTMLElement)
+export function containedAutoWidth(container: HTMLElement)
 {
 	if (['OL', 'UL'].includes(container.nodeName)) {
 		for (
