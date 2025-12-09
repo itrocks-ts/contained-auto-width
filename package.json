@@ -5,8 +5,8 @@
 	},
 	"description": "Automatically adjusts the width of <input> elements based on their text content within a list",
 	"devDependencies": {
-		"@types/node": "^22.9",
-		"typescript": "~5.8"
+		"@types/node": "^24.10",
+		"typescript": "~5.9"
 	},
 	"files": [
 		"LICENSE",
@@ -31,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./contained-auto-width.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
