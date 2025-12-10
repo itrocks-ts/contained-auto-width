@@ -16,8 +16,19 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
+		"auto-resize",
+		"auto-width",
+		"automatic",
+		"automatically",
+		"contained",
+		"contained-auto-width",
 		"front-end",
-		"it.rocks"
+		"input",
+		"inputs",
+		"it.rocks",
+		"list",
+		"ui",
+		"width"
 	],
 	"license": "ISC",
 	"module": "./contained-auto-width.js",
