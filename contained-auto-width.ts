@@ -16,7 +16,7 @@ export function containedAutoWidth(container: HTMLElement)
 		element.remove()
 	})
 
-	const input = container.firstElementChild as HTMLInputElement
+	const input = container.querySelector(':scope > input:not([type=hidden])') as HTMLInputElement
 
 	const textContent = () => input.value.length ? input.value : ((input.placeholder === '') ? ' ' : input.placeholder)
 	const copyTextContent = () => { textNode.textContent = textContent() }
