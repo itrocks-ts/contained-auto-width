@@ -5,8 +5,7 @@
 	},
 	"description": "Automatically adjusts the width of <input> elements based on their text content within a list",
 	"devDependencies": {
-		"@types/node": "^24.10",
-		"typescript": "~5.9"
+		"typescript": "^6.0"
 	},
 	"files": [
 		"LICENSE",
@@ -31,7 +30,6 @@
 		"width"
 	],
 	"license": "ISC",
-	"module": "./contained-auto-width.js",
 	"name": "@itrocks/contained-auto-width",
 	"repository": {
 		"type": "git",
@@ -40,7 +38,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"type": "module",
-	"types": "./contained-auto-width.d.ts",
-	"version": "0.1.0"
+	"version": "0.1.1"
 }
